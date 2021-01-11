@@ -54,3 +54,21 @@ body{
     text-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
     color: white;
 }
+
+
+.about{
+    padding: 10px;
+}
+.about img{
+    width: 100vw;
+    height: 100%;
+}
+
+.heading{
+    width: 75%;
+    margin: 0  auto;
+    padding-top: 2.5rem;
+  
+  
+}
+
