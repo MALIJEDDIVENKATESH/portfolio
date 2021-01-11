@@ -37,3 +37,20 @@ body{
     color:greenyellow;
 
 }
+
+
+
+
+.home{
+    background-size: cover;
+    background-image: url('./images/backgound.jpg');
+    display: flex;
+    opacity: 0.9;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    width: 100%;
+    text-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    color: white;
+}
