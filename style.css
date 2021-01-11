@@ -9,11 +9,15 @@
 body{
     margin: 0;
     padding: 0;
+    width: 100%;
     box-sizing: border-box;
     font-family: sans-serif;
     
 }
 
+.home{
+    margin: 0;
+}
 
 .navbar{
     background-color: black;
@@ -43,6 +47,9 @@ body{
 
 .home{
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
     background-image: url('./images/backgound.jpg');
     display: flex;
     opacity: 0.9;
@@ -96,7 +103,7 @@ hr{
 
 
 
-#submit{
+.button{
     width: 80%;
     margin: 0 auto;
     padding: 10px;
@@ -106,12 +113,14 @@ hr{
     outline: none;
     border: none;
     display: block;
+    margin-bottom: 20px;
     
 
 }
 
 .achievements,.contact,.skills,.projects{
-    margin: 50px 5px ;
+    margin: 50px 15px ;
+    padding: 20px;
 }
 
 
