@@ -88,3 +88,30 @@ hr{
       font-size: 30px;
   }
 
+
+  .contact .contactsection{
+    padding: 10px 40px;
+    
+}
+
+
+
+#submit{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(243, 33, 44);
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    display: block;
+    
+
+}
+
+.achievements,.contact,.skills,.projects{
+    margin: 50px 5px ;
+}
+
+
