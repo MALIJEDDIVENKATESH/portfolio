@@ -6,31 +6,55 @@
     margin: 0;
 }
 
+
+html{
+
+    font-size: 16px;
+}
+
+
+
 body{
     margin: 0;
     padding: 0;
     width: 100%;
     box-sizing: border-box;
     font-family: sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* color: white; */
+    /* background-color: black; */
     
-}
-
-.home{
-    margin: 0;
 }
 
 .navbar{
     background-color: black;
     padding: 10px ;
+    
+}
 
+
+.navbar-brand{
+    font-size: 30px;
 
 }
+
+.nav-item label{
+    color: white;
+    font-size: 1rem;
+}
+
+
 .navbar-dark .navbar-nav .nav-link{
     font-family: 'Lato', sans-serif;
-    margin:10px  50px;
+    padding: 10px;
     color:white;
     text-transform: uppercase;
     font-weight: 500;
+    margin: 10px 50px ;
 }
 
 
@@ -43,6 +67,21 @@ body{
 }
 
 
+.darkmode{
+    margin-top: 10px;
+}
+
+
+#pop{
+    width: 3rem;
+    height: 3rem;
+}
+
+.home-container{
+    width: 100%;
+    padding: 0;
+
+}
 
 
 .home{
@@ -63,18 +102,26 @@ body{
 }
 
 
+
 .about{
     padding: 10px;
+    text-align: center;
+
 }
-.about img{
-    width: 100vw;
+.about .aboutimg{
     height: 100%;
+}
+
+.about .abouttext{
+    font-size: 0.2rem;
+    text-align: center;
 }
 
 .heading{
     width: 75%;
     margin: 0  auto;
     padding-top: 2.5rem;
+    font-size: 2rem;
   
   
 }
@@ -92,35 +139,189 @@ hr{
 
 
   .lead{
-      font-size: 30px;
+      font-size: 20px;
+      line-height: 4rem;
   }
 
 
-  .contact .contactsection{
-    padding: 10px 40px;
-    
+    .contact .contactsection{
+        padding:10px 40px;
+        margin-bottom: 150px;
 }
 
+.contact input{
+    margin:10px 0px;
+}
 
 
 .button{
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 10px;
-    background-color: rgb(243, 33, 44);
+    background-color:rgba(255, 65, 75, 0.897);
     color: white;
-    border-radius: 5px;
+    border-radius: 25px;
     outline: none;
     border: none;
-    display: block;
-    margin-bottom: 20px;
+    display: inline-block;    
+
+}
+
+.achievements,.contact,.skills,.projects,.about{
+    padding: 30px;
+    width: 100%;
+    text-align: center;
     
 
 }
 
-.achievements,.contact,.skills,.projects{
-    margin: 50px 15px ;
-    padding: 20px;
+
+.dmode{
+    background-color: black;
+    color: white;
 }
 
+
+
+
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    margin: 20px 0px  0px;
+    /* background-color: black; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.footer h1{
+    font-size: 3rem;
+    margin: 40px 0;
+}
+
+
+
+
+
+
+  .fa {
+    
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    line-height: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 55px 40px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px #dcdde1;
+  }
+
+  .fa:hover {
+      transform: scale(2.0);
+  }
+
+
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-facebook {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+    background: #fff;
+    color: red;
+  }
+  
+
+
+@media(max-width : 998px){
+    html{
+        font-size: 50%;
+        
+    }
+
+}
+
+@media(max-width : 700px){
+    html{
+        font-size: 45%;
+        
+    }
+
+    .nav-link{
+        font-size: 2rem;
+    }
+
+    .nav-item label{
+        color: white;
+        font-size: 2rem;
+    }
+
+    .about .aboutimg{
+    margin-bottom: 80px;
+
+    }
+
+    #pop{
+        width: 2rem;
+        
+    }
+
+    .contact{
+        font-size: 15px;
+    }
+    .contact input{
+        font-size: 2rem;
+    }
+    .contact textarea{
+        font-size: 2rem;
+        padding: 20px;
+    }
+
+
+   .about  .abouttext{
+        font-size: 12rem;
+    }
+
+    .social .fa{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+}
+@media(max-width : 300px){
+    html{
+        font-size: 35%;
+        
+    }
+
+}
+
+
+
+
+
+ 
 
