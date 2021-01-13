@@ -7,13 +7,6 @@
 }
 
 
-html{
-
-    font-size: 16px;
-}
-
-
-
 body{
     margin: 0;
     padding: 0;
@@ -25,8 +18,8 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* color: white; */
-    /* background-color: black; */
+
+
     
 }
 
@@ -72,10 +65,7 @@ body{
 }
 
 
-#pop{
-    width: 3rem;
-    height: 3rem;
-}
+
 
 .home-container{
     width: 100%;
@@ -108,20 +98,45 @@ body{
     text-align: center;
 
 }
+
+.section-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+    margin-top: 3rem;
+
+
+}
 .about .aboutimg{
     height: 100%;
 }
 
 .about .abouttext{
-    font-size: 0.2rem;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 .heading{
     width: 75%;
+    color: black;
     margin: 0  auto;
     padding-top: 2.5rem;
     font-size: 2rem;
+    text-shadow: 0px 0px 5px 1px rgba(0,0,0,0.3);
+  
+  
+}
+.connectheading{
+    width: 75%;
+    color: white;
+    margin: 0  auto;
+    padding-top: 0rem;
+    font-size: 2rem;
+    text-shadow: 0px 0px 5px 1px rgba(0,0,0,0.3);
   
   
 }
@@ -139,14 +154,14 @@ hr{
 
 
   .lead{
-      font-size: 20px;
+      font-size: 2rem;
       line-height: 4rem;
   }
 
 
     .contact .contactsection{
         padding:10px 40px;
-        margin-bottom: 150px;
+        margin-bottom: 10rem;
 }
 
 .contact input{
@@ -156,22 +171,38 @@ hr{
 
 .button{
     width: 80%;
-    margin: 20px auto;
+    margin: 40px auto;
     padding: 10px;
-    background-color:rgba(255, 65, 75, 0.897);
-    color: white;
+    color:white;
     border-radius: 25px;
     outline: none;
-    border: none;
+    border: none ;
+    background-color:rgba(255, 65, 75, 0.897); 
     display: inline-block;    
-
+        
 }
 
-.achievements,.contact,.skills,.projects,.about{
+.buttoncontainer{
+    margin-top: 30px;
+}
+
+
+
+.section{
     padding: 30px;
-    width: 100%;
     text-align: center;
+    background-color: #fff;
+    margin: 50px 50px;
+    width: 90%;
+    border-radius: 18px;
+
     
+    
+}
+.section:hover{
+    box-shadow: 0px 0px 10px  rgba(0,0,0,0.3);
+    /* transform: scale(1.05); */
+    transition: 0.3s ease-in;    
 
 }
 
@@ -187,23 +218,27 @@ hr{
 
 
 .footer{
-    position: absolute;
-    bottom: 0;
-    margin: 20px 0px  0px;
-    /* background-color: black; */
-    height: 100px;
+    color: white;
+    background-color: black;
+    height: auto;
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
-
+    height: auto;
+    padding: 10px;
+    border-top: 1px solid white;
 }
 
 .footer h1{
     font-size: 3rem;
     margin: 40px 0;
+}
+
+.footer  hr{
+    width: 50%;
+    
 }
 
 
@@ -213,20 +248,20 @@ hr{
 
   .fa {
     
-    font-size: 30px;
+    font-size: 40px;
     width: 40px;
     height: 40px;
     padding: 10px;
     line-height: 100px;
     text-align: center;
     text-decoration: none;
-    margin: 55px 40px;
+    margin: 30px;
     border-radius: 50%;
-    box-shadow: 1px 1px 1px 1px #dcdde1;
-  }
+}
 
-  .fa:hover {
-      transform: scale(2.0);
+.fa:hover {
+    transform: scale(2.0);
+    box-shadow: 0px 0px 5px  #dcdde1;
   }
 
 
@@ -253,6 +288,15 @@ hr{
     background: #fff;
     color: red;
   }
+.fa-github {
+    background: #fff;
+    color:#000;
+  }
+
+
+  .social{
+      margin-top: 50px;
+  }
   
 
 
@@ -262,7 +306,40 @@ hr{
         
     }
 
+
+
+    .contact{
+        font-size: 15px;
+    }
+    .contact input{
+        font-size: 2rem;
+    }
+    .contact textarea{
+        font-size: 2rem;
+        padding: 20px;
+    }
+
+    .nav-link{
+        font-size: 2rem;
+    }
+
+    .nav-item label{
+        color: white;
+        font-size: 2rem;
+    }
+
+    .navbar .navbar-toggler{
+        font-size: 2rem;
+    }
+
+    .footertext h5{
+        font-size: 2.5rem;
+    
+    }
+
 }
+
+
 
 @media(max-width : 700px){
     html{
@@ -308,6 +385,10 @@ hr{
     .social .fa{
         font-size: 20px;
         padding: 10px;
+    }
+
+    .footer .footertext{
+        font-size: 2rem;
     }
 
 }

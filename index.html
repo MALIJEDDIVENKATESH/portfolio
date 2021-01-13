@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   </head>
   <body>
 
@@ -72,27 +71,8 @@
       
       
       
-      <div class="container-fluid">
+      <div class="container-fluid ">
 
-        <!-- Flexbox container for aligning the toasts -->
-<div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center w-100">
-
-  <!-- Then put toasts within -->
-  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-    <div class="toast-header">
-      <img src="..." class="rounded me-2" alt="...">
-      <strong class="me-auto">Bootstrap</strong>
-      <small>11 mins ago</small>
-      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-    </div>
-    <div class="toast-body">
-      Hello, world! This is a toast message.
-    </div>
-  </div>
-</div>
-
-
- 
  
         <!-- Home  -->
         
@@ -115,10 +95,11 @@
      
            <!-- About -->
         
+        <div class="section-container">
 
-        <div class="about mt-3" id="about">
+        <div class="about section mt-3" id="about">
             <div class="row text-center">
-            <div class="col-12 heading"><h1>About Me </h1></div>
+            <div class="col-12 heading"><h1>About me </h1></div>
             <hr>
             <div class=" col-sm-12 col-md-4 aboutimg">
                 <img src="./images/ME.jpg" class="img-fluid" alt="Responsive image" >
@@ -127,15 +108,15 @@
                 <p class="lead">I am Malijeddi Venkatesh ,currently studying 3rd year Bachelor of Technology  Computer Science from  National institute of technology Andhrapradesh <br>
                 I am enthusiastic Web developer , Mobile app developer and problem solver  who likes to explore and build websites I am skilled in HTML,CSS,JAVASCRIPT
                 ,REACT NATIVE 
-            </p>
+                </p>
             </div>
             </div>
             </div>
-        </div>
+        <!-- </div> -->
   
 
         
-<div class="skills  mt-3" id="skills">
+<div class="skills section mt-3" id="skills">
   <div class="row">
     <div class="text-center col-12 heading"><h1>Skills </h1></div>
     <hr>
@@ -173,14 +154,19 @@
 
 <!-- Achievements -->
 
-<div class=" achievements mt-3" id="achievements">
+<div class=" achievements section mt-3" id="achievements">
   <div class="row">
     <div class="text-center col-12 heading"><h1>Achievements</h1></div>
     <hr>
-    <div class="col-12">
+
+    <div class="col-sm-3">
+      <img  src="./images/sih.png" alt="">
+    </div>
+
+    <div class="col-sm-9">
       <ul>
         <li>
-          <h3>Participated in the SIH Finals 2020 as a team member</h3> 
+          <h3>Participated in the Smart India Hackathon finals 2020 as a team member</h3> 
 
         </li>
         <li>
@@ -193,12 +179,11 @@
         
     </div>
   </div>
-  </div>
 
   <!-- Projects -->
 
 
-<div class=" projects mt-3" id="projects">
+<div class=" projects section mt-3" id="projects">
   <div class="row">
     <div class="text-center col-12 heading"><h1>Projects</h1></div>
     <hr>
@@ -214,14 +199,13 @@
         
     </div>
   </div>
-  </div>
 
 
 
 <!-- Contact Section  -->
 
 
-<div class="contact " id="contact">
+<div class="contact section" id="contact">
 
   <div class="heading text-center"><h1>Contact Me</h1></div>
   <hr>
@@ -280,10 +264,10 @@
         </div>
       </div>
 
-      <div class="col-md-12 ">
+      <div class="col-md-12 buttoncontainer">
         <input type="submit"   class="button" id="submit"></input>
       </div> 
-      <div class="col-md-12 ">
+      <div class="col-md-12 buttoncontainer ">
         <input class="button"  type="reset"  id="reset"></input>
       </div> 
 
@@ -297,27 +281,37 @@
 
 </div>
 
+</div>
+
+
+</div>
+
 
 
 <!-- Footer -->
 
 <div class="row footer">
-  <div class="text-center col-12 heading"><h1>Connect me </h1></div>
+  <div class="text-center col-12 contactheading"><h1>Connect me </h1></div>
+  <hr>
+  <div class="col-12">
 
-  <div class="col-12 mx-auto">
+    <div class="col-12 footertext" mx-auto>
+      <h5>Name:MALIJEDDI VENKATESH</h5>
+      <h5>Email: <a href="">malijeddivenkatesh19062001@gmail.com</a></h5>
+      <h5>Phone:+91 8885274453</h5>
 
-    <div class="social col-12">
+
+    </div>
+
+    <div class="social ">
       <a href="https://twitter.com/venkatesh192001"><i class="fa fa-twitter"></i></a>
       <a href="https://www.linkedin.com/in/malijeddi-venkatesh-a31862176/"><i class="fa fa-linkedin"></i></a>
       <a href="https://www.instagram.com/venkatesh192001/"><i class="fa fa-instagram"></i></a>
       <a href="https://www.facebook.com/profile.php?id=100004483652490"><i class="fa fa-facebook"></i></a>
+      <a href="https://github.com/MALIJEDDIVENKATESH"><i class="fa fa-github"></i></a>
     </div> 
-
-
-
-  
-</div>
-
+    <br>
+    <div class="col-12">Made By Malijeddi Venkatesh with ❤️</div>
 
 </div>
 
