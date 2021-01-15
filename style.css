@@ -95,7 +95,7 @@ body{
 
 .about{
     padding: 10px;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -115,7 +115,7 @@ body{
 }
 
 .about .abouttext{
-    text-align: center;
+    text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
@@ -160,6 +160,8 @@ hr{
 
 
     .contact .contactsection{
+    text-align: center;
+
         padding:10px 40px;
         margin-bottom: 10rem;
 }
@@ -190,7 +192,6 @@ hr{
 
 .section{
     padding: 30px;
-    text-align: center;
     background-color: #fff;
     margin: 50px 50px;
     width: 90%;
