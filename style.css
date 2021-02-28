@@ -154,7 +154,7 @@ hr{
 
 
   .lead{
-      font-size: 2rem;
+      font-size: 1.8rem;
       line-height: 4rem;
   }
 
@@ -299,6 +299,10 @@ hr{
       margin-top: 50px;
   }
   
+
+  .foottext{
+      font-size: 1.5rem;
+  }
 
 
 @media(max-width : 998px){
